@@ -29,7 +29,13 @@ class Game {
         currentIndex = 0
         state = .over
         
-        QuestionManager.shared.get(completionHandler: receiveQuestion)
+        QuestionManager.shared.get { (questions) in
+            self.questions = questions
+            self.state = .ongoing
+            let name = Notification.Name(rawValue: "QuestionsLoaded")
+            let notification = Notification(name: name)
+            NotificationCenter.default.post(notification)
+        }
     }
     
     func answerCurrentQuestion(with answer: Bool) {

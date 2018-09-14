@@ -16,6 +16,8 @@
 		A4A75E98214539FA00A83B9F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A75E97214539FA00A83B9F /* Question.swift */; };
 		A4A75E9A2145588100A83B9F /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A75E992145588000A83B9F /* Game.swift */; };
 		A4A75E9C214558F200A83B9F /* QuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A75E9B214558F200A83B9F /* QuestionManager.swift */; };
+		CD40A0302147A66000E31BD2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD40A02F2147A66000E31BD2 /* Default-568h@2x.png */; };
+		CDADF14B214A97FD00F91FF2 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADF14A214A97FD00F91FF2 /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,11 +27,13 @@
 		A4A75E8421452EAF00A83B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4A75E8621452EB200A83B9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4A75E8921452EB200A83B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A4A75E8B21452EB200A83B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4A75E8B21452EB200A83B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
 		A4A75E912145338400A83B9F /* Balham.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Balham.otf; sourceTree = "<group>"; };
 		A4A75E97214539FA00A83B9F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		A4A75E992145588000A83B9F /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		A4A75E9B214558F200A83B9F /* QuestionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionManager.swift; sourceTree = "<group>"; };
+		CD40A02F2147A66000E31BD2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CDADF14A214A97FD00F91FF2 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuestionView.swift; path = OpenQuizz/View/QuestionView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,7 @@
 		A4A75E7321452EAF00A83B9F = {
 			isa = PBXGroup;
 			children = (
+				CD40A02F2147A66000E31BD2 /* Default-568h@2x.png */,
 				A4A75E7E21452EAF00A83B9F /* OpenQuizz */,
 				A4A75E7D21452EAF00A83B9F /* Products */,
 			);
@@ -83,6 +88,7 @@
 		A4A75E94214538BB00A83B9F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CDADF14A214A97FD00F91FF2 /* QuestionView.swift */,
 				A4A75E8321452EAF00A83B9F /* Main.storyboard */,
 			);
 			path = View;
@@ -99,11 +105,11 @@
 		A4A75E96214538FC00A83B9F /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				A4A75E8B21452EB200A83B9F /* Info.plist */,
 				A4A75E7F21452EAF00A83B9F /* AppDelegate.swift */,
 				A4A75E912145338400A83B9F /* Balham.otf */,
 				A4A75E8621452EB200A83B9F /* Assets.xcassets */,
 				A4A75E8821452EB200A83B9F /* LaunchScreen.storyboard */,
-				A4A75E8B21452EB200A83B9F /* Info.plist */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -169,6 +175,7 @@
 				A4A75E8A21452EB200A83B9F /* LaunchScreen.storyboard in Resources */,
 				A4A75E8721452EB200A83B9F /* Assets.xcassets in Resources */,
 				A4A75E922145338400A83B9F /* Balham.otf in Resources */,
+				CD40A0302147A66000E31BD2 /* Default-568h@2x.png in Resources */,
 				A4A75E8521452EAF00A83B9F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,6 +191,7 @@
 				A4A75E8221452EAF00A83B9F /* ViewController.swift in Sources */,
 				A4A75E8021452EAF00A83B9F /* AppDelegate.swift in Sources */,
 				A4A75E9C214558F200A83B9F /* QuestionManager.swift in Sources */,
+				CDADF14B214A97FD00F91FF2 /* QuestionView.swift in Sources */,
 				A4A75E9A2145588100A83B9F /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
