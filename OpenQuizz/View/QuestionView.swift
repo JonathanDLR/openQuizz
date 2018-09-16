@@ -10,7 +10,7 @@ import UIKit
 
 class QuestionView: UIView {
     enum Style {
-        case correct, incorrect, standard
+        case correct, incorrect, standard, ended
     }
     
     private func setStyle(_ style: Style) {
@@ -25,6 +25,9 @@ class QuestionView: UIView {
                 icon.isHidden = false
             case .standard:
                 backgroundColor = UIColor(red: 191.0/255.0, green: 196.0/255.0, blue: 201.0/255.0, alpha: 1)
+                icon.isHidden = true
+            case .ended:
+                backgroundColor = UIColor(red: 243.0/255.0, green: 135.0/255.0, blue: 148.0/255.0, alpha: 1)
                 icon.isHidden = true
         }
     }
